@@ -12,7 +12,7 @@
                  [factql "1.0.3"]
                  [clojure-csv/clojure-csv "2.0.0-alpha2"]
                  [fi.foyt/foursquare-api "1.0.2"]
-                 [cheshire "4.0.1"]
+                 [cheshire "5.0.2"]
                  [ordered "1.3.1"]
                  [retry "1.0.2"]
                  ;;;; for yelp lib
