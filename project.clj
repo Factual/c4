@@ -1,4 +1,4 @@
-(defproject factual/c4 "0.0.9"
+(defproject factual/c4 "0.0.10"
   :description "Convenience features for handling record files the Clojure way"
   :url "https://github.com/Factual/c4"
   :license {:name "Eclipse Public License"
@@ -18,7 +18,7 @@
                  ;;;; for yelp lib
                  [org.scribe/scribe "1.2.0"]
                  ;;;; for facebook lib
-                 [mavericklou/clj-facebook-graph "0.4.5"]
+                 [mavericklou/clj-facebook-graph "0.5.3"]
                  ;;;; for google places API
                  [com.google.api-client/google-api-client "1.8.0-beta"]
                  ;;;;;; forced downgrade, otherwise we get an error about hostname and SSL certificate.
