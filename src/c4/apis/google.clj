@@ -92,7 +92,11 @@
   [ref]
   (assoc
     (get-result PLACES_LOOKUP {:reference ref})
-    :reference ref))
+    :reference ref)
+  [ref lang]
+  (assoc
+    (get-result PLACES_LOOKUP {:reference ref :language lang})
+    :reference ref :language lang))
 
 (defn addr-parts [place]
   (when-let [parts (place "address_components")]
