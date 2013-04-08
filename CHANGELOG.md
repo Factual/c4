@@ -1,4 +1,8 @@
-## 0.0.12
+## 0.1.1
+
+ * upgrade to latest httpclient to fix httpclient dependency issue. This also fixed SSL issue in 4.1.1
+
+## 0.1.0
 
  * update to factql 1.0.4, for remove clojure.data.json, use cheshire instead
 
