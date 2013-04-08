@@ -1,4 +1,4 @@
-(defproject factual/c4 "0.1.0"
+(defproject factual/c4 "0.1.1"
   :description "Convenience features for handling record files the Clojure way"
   :url "https://github.com/Factual/c4"
   :license {:name "Eclipse Public License"
@@ -21,7 +21,6 @@
                  [mavericklou/clj-facebook-graph "0.5.3"]
                  ;;;; for google places API
                  [com.google.api-client/google-api-client "1.8.0-beta"]
-                 ;;;;;; forced downgrade, otherwise we get an error about hostname and SSL certificate.
-                 ;;;;;; https://issues.apache.org/jira/browse/HTTPCLIENT-1125
-                 [org.apache.httpcomponents/httpclient "4.1.1"]]
- :aliases {"test!" ["do" "clean," "deps," "test" ":all"]})
+                 [org.apache.httpcomponents/httpclient "4.2.3"]]
+  :aliases {"test!" ["do" "clean," "deps," "test" ":all"]}
+  :aot :all)
