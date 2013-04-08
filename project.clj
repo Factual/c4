@@ -1,4 +1,4 @@
-(defproject factual/c4 "0.0.11"
+(defproject factual/c4 "0.1.0"
   :description "Convenience features for handling record files the Clojure way"
   :url "https://github.com/Factual/c4"
   :license {:name "Eclipse Public License"
@@ -9,7 +9,7 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [fs "1.3.2"]
                  [com.cemerick/pomegranate "0.0.13"]
-                 [factql "1.0.3"]
+                 [factql "1.0.4"]
                  [clojure-csv/clojure-csv "2.0.0-alpha2"]
                  [fi.foyt/foursquare-api "1.0.2"]
                  [cheshire "5.0.2"]
@@ -23,4 +23,5 @@
                  [com.google.api-client/google-api-client "1.8.0-beta"]
                  ;;;;;; forced downgrade, otherwise we get an error about hostname and SSL certificate.
                  ;;;;;; https://issues.apache.org/jira/browse/HTTPCLIENT-1125
-                 [org.apache.httpcomponents/httpclient "4.1.1"]])
+                 [org.apache.httpcomponents/httpclient "4.1.1"]]
+ :aliases {"test!" ["do" "clean," "deps," "test" ":all"]})
