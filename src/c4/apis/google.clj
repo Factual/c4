@@ -89,14 +89,8 @@
 
    The result will also be wrapped in metadata parsed from the
    response metadata returned by Google, such as response status."
-  ([ref]
-  (assoc
-    (get-result PLACES_LOOKUP {:reference ref})
-    :reference ref))
-  ([ref lang]
-  (assoc
-    (get-result PLACES_LOOKUP {:reference ref :language lang})
-    :reference ref :language lang)))
+  [m]
+  (merge (get-result PLACES_LOOKUP m) m))
 
 (defn addr-parts [place]
   (when-let [parts (place "address_components")]

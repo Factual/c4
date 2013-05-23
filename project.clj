@@ -1,4 +1,4 @@
-(defproject factual/c4 "0.1.1"
+(defproject factual/c4 "0.1.2"
   :description "Convenience features for handling record files the Clojure way"
   :url "https://github.com/Factual/c4"
   :license {:name "Eclipse Public License"
