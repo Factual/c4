@@ -1,3 +1,7 @@
+## 0.2.0
+
+ * Removed support for Facebook API
+
 ## 0.1.2
 
  * Updated google/lookup-place to use a map instead of a number of string parameters
@@ -11,7 +15,7 @@
  * update to factql 1.0.4, for remove clojure.data.json, use cheshire instead
 
 ## 0.0.11
- 
+
  * Added optional language parameter to google lookup-places
 
 ## 0.0.8
@@ -19,5 +23,5 @@
  * Initial release!
 
 ## 0.0.11
- 
+
  * Added optional language parameter to google lookup-places

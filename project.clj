@@ -1,4 +1,4 @@
-(defproject factual/c4 "0.1.3"
+(defproject factual/c4 "0.2.0"
   :description "Convenience features for handling record files the Clojure way"
   :url "https://github.com/Factual/c4"
   :license {:name "Eclipse Public License"
@@ -15,8 +15,6 @@
                  [retry "1.0.2"]
                  ;;;; for yelp lib
                  [org.scribe/scribe "1.2.0"]
-                 ;;;; for facebook lib
-                 [mavericklou/clj-facebook-graph "0.5.3"]
                  ;;;; for google places API
                  [com.google.api-client/google-api-client "1.8.0-beta"]
                  [org.apache.httpcomponents/httpclient "4.2.3"]]
