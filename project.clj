@@ -7,7 +7,7 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [fs "1.3.2"]
                  [com.cemerick/pomegranate "0.0.13"]
-                 [factql "1.0.4"]
+                 [org.clojure/tools.logging "0.2.3"]
                  [clojure-csv/clojure-csv "2.0.0-alpha2"]
                  [cheshire "5.0.2"]
                  [ordered "1.3.1"]
