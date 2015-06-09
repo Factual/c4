@@ -1,3 +1,7 @@
+## 0.2.1
+ * Removed support for Google, Yelp, Foursqaure and Factual API
+ * Upgrade to clojure 1.6.0
+
 ## 0.2.0
 
  * Removed support for Facebook API
